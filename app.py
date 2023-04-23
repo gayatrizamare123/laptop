@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle4 as pickle 
+import pickle
 import numpy as np
 
 # import the model
