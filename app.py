@@ -3,8 +3,8 @@ import pickle4 as pickle
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('pipe.pkl','rb'))
-df = pickle.load(open('df.pkl','rb'))
+pipe = pickle.load(open('laptop/pipe.pkl','rb'))
+df = pickle.load(open('laptop/df.pkl','rb'))
 
 st.title("Laptop Predictor")
 
