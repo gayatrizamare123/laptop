@@ -1,10 +1,10 @@
 import streamlit as st
-import pickle
+import pickle5 as pickle
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('laptop/pipe.pkl','rb'))
-df = pickle.load(open('laptop/df.pkl','rb'))
+pipe = pickle.load(open('app/laptop/pipe.pkl','rb'))
+df = pickle.load(open('app/laptop/df.pkl','rb'))
 
 st.title("Laptop Predictor")
 
