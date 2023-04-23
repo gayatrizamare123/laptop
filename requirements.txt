@@ -1,3 +1,4 @@
 streamlit
 sklearn3
 pickle5
+scikit-learn
