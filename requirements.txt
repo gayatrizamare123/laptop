@@ -1,4 +1,5 @@
 streamlit
 sklearn3
 sklearn
-pickle4
+pickle
+scikit-learn
