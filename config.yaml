@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    gayatri:
+      email: gayatrizamare123@gmail.com
+      name: Gayatri Zamare
+      password: $2b$12$UqUW9JlnMcDJZIBXKP4.vu2.9xvbfQjm71ZgCLUD2StMqghLbJjZi # To be replaced with hashed password
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: $2b$12$Zw.7b1pX9gGYft6hNi3SUe8sWdFTPcTawESv16k0M9wqzd8Jf9xT6 # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
