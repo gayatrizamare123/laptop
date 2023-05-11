@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import yaml
 from yaml.loader import SafeLoader
-with open('C:\\Users\\khotn\\OneDrive\\Desktop\\gayatri\\config.yaml') as file:
+with open('config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 hashed_passwords = stauth.Hasher(['abc', 'def']).generate()
 
